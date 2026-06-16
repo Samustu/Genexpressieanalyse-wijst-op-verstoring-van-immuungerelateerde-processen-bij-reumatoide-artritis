@@ -1,14 +1,14 @@
 
-# 🧬 Transcriptomics Analysis of Rheumatoid Arthritis
+#  Transcriptomics Analysis of Rheumatoid Arthritis
 
-## 📌 Project Description  
+##  Project Description  
 Reumatoïde artritis (RA) is een chronische systemische auto-immuunziekte die wordt gekenmerkt door ontsteking van het gewrichtsslijmvlies (synovitis), wat leidt tot progressieve gewrichtsschade. De oorzaak van RA is multifactorieel en omvat genetische aanleg, omgevingsfactoren en een ontregeld immuunsysteem.  
 
 In dit project wordt transcriptomics gebruikt om verschillen in genexpressie tussen RA-patiënten en gezonde controles te analyseren. Door middel van RNA-seq data worden genen en biologische pathways geïdentificeerd die betrokken zijn bij het ziekteproces.  
 
 ---
 
-## 🎯 Doelstelling  
+##  Doelstelling  
 Het doel van deze studie is om:  
 - differentieel geëxprimeerde genen te identificeren tussen RA en controles  
 - inzicht te krijgen in betrokken biologische processen  
@@ -16,7 +16,7 @@ Het doel van deze studie is om:
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 - 4 RA samples 
 - 4 controle samples  
 - RNA-seq paired-end data  
@@ -24,7 +24,7 @@ Het doel van deze studie is om:
 
 ---
 
-## 🔬 Methode  
+##  Methode  
 
 Voor deze analyse is gebruikgemaakt van RNA-seq data afkomstig van synoviaal weefsel van vier patiënten met reumatoïde artritis (RA) en vier gezonde controles. De ruwe sequencing reads (FASTQ-bestanden) zijn uitgelijnd tegen het humane referentiegenoom (GRCh38) met behulp van het *Rsubread* package (v2.18.0) in R (v4.4.1). Voor elke sample is een BAM-bestand gegenereerd, waarna deze bestanden zijn gesorteerd en geïndexeerd met het *Rsamtools* package (v2.20.0).  
 
@@ -36,7 +36,7 @@ Functionele analyse is uitgevoerd met *goseq* (v1.56.0) voor Gene Ontology en me
 
 ---
 
-## 📊 Resultaten  
+##  Resultaten  
 
 De differentiële expressieanalyse toonde een groot aantal genen met significante veranderingen tussen RA en controles. De volcano plot laat zowel up- als downregulated genen zien, waarbij meerdere genen een hoge log2 fold change en lage p-waarde vertonen. Voorbeelden van sterk gereguleerde genen zijn *IGHV3-53*, *BCL2A1* en *PTGFR*, die betrokken zijn bij immuunresponsen.  
 
@@ -44,7 +44,7 @@ De Gene Ontology analyse laat zien dat de meeste differentieel geëxprimeerde ge
 
 ---
 
-## 📈 Visualisaties  
+##  Visualisaties  
 
 ### Volcano plot  
 <p align="center">
@@ -63,7 +63,7 @@ De Gene Ontology analyse laat zien dat de meeste differentieel geëxprimeerde ge
 
 ---
 
-## ✅ Conclusie  
+##  Conclusie  
 
 De resultaten tonen aan dat reumatoïde artritis sterk wordt gekenmerkt door ontregeling van het immuunsysteem. Met name processen zoals adaptieve immuunrespons, leukocytenactivatie en antilichaamvorming spelen een belangrijke rol.  
 
