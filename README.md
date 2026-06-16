@@ -1,5 +1,5 @@
 
-#  Transcriptomics Analysis of Rheumatoid Arthritis
+#  Transcriptomics-Analyse-van-Reumatoïde-artritis
 
 ##  Project Beschrijving  
 Reumatoïde artritis (RA) is een chronische systemische auto-immuunziekte die wordt gekenmerkt door ontsteking van het gewrichtsslijmvlies (synovitis), wat leidt tot progressieve gewrichtsschade. De oorzaak van RA is multifactorieel en omvat genetische aanleg, omgevingsfactoren en een ontregeld immuunsysteem.  
