@@ -5,7 +5,6 @@ Goed databeheer is essentieel voor betrouwbaar en reproduceerbaar onderzoek. Doo
 Voor dit project is een duidelijke mappenstructuur aangehouden, waarbij ruwe data, scripts, resultaten en referenties in afzonderlijke mappen zijn opgeslagen. Hierdoor blijven bestanden overzichtelijk en zijn analyses eenvoudig terug te vinden.
 
 ```text
-.
 ├── data/           # RNA-seq data en count matrices
 ├── scripts/        # R-scripts voor de analyse
 ├── resultaten/     # Figuren, tabellen en outputbestanden
