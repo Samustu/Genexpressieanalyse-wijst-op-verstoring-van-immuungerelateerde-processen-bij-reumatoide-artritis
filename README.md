@@ -64,17 +64,19 @@ Functionele analyse werd uitgevoerd met *goseq* (v1.56.0) voor Gene Ontology-ver
 ##  Resultaten  
 De differentiële genexpressieanalyse met DESeq2 identificeerde 4572 significant differentieel geëxprimeerde genen (padj < 0,05). Van deze genen waren 2085 opgereguleerd en 2487 neergereguleerd in reumatoïde artritispatiënten ten opzichte van gezonde controles.
 
+
 <p align="center">
   <img src="resultaten/Figuren/VolcanoplotWC.png" width="600">
 </p>
 
 *Figuur 2.* Volcano plot van de differentiële genexpressieanalyse tussen RA- en controlesamples. Punten boven de significantiedrempel (padj < 0,05) vertegenwoordigen significant differentieel geëxprimeerde genen.
 
+De volcano plot laat een duidelijke scheiding zien tussen op- en neergereguleerde genen. Genen zoals *IGHV3-53*, *IGHV1-69* en *PTGFR* vertoonden een verhoogde expressie, terwijl *ANKRD30BL*, *MT-ND6* en *SLC9A3R2* juist een lagere expressie lieten zien in RA-patiënten.
+
+
 <p align="center">
   <img src="resultaten/Figuren/GO_Results_plot.png" width="600">
 </p>
-
-De volcano plot laat een duidelijke scheiding zien tussen op- en neergereguleerde genen. Genen zoals *IGHV3-53*, *IGHV1-69* en *PTGFR* vertoonden een verhoogde expressie, terwijl *ANKRD30BL*, *MT-ND6* en *SLC9A3R2* juist een lagere expressie lieten zien in RA-patiënten.
 
 *Figuur 2.* Top verrijkte GO-termen van de differentieel geëxprimeerde genen.
 
