@@ -84,10 +84,10 @@ Een beperking van dit project/study is dat de sample groep te klein is met 8
 
 ---
 
-##Bronnen
+### Bronnen
 De gebruikte bronnen voor deze study zijn te vinden in de map /bronnen
 
 ---
 
-###AI gebruik
+### AI gebruik
 Deze study heeft gebruik gemaakt van AI zoals copilot bij het formuleren van de tekst en het organiseren van bronnen. De analyses, interpretatie en vinden van bronnen zijn self door de student gedaan
