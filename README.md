@@ -74,7 +74,20 @@ Binnen de pathway werden verhoogde expressieniveaus waargenomen voor MHC II, CD2
 ---
 
 ##  Conclusie  
+Het doel van dit project was om genexpressieverschillen tussen reumatoïde artritispatiënten en gezonde controles te identificeren en biologisch te interpreteren. De differentiële genexpressieanalyse liet zien dat meerdere genen significant verschilden tussen beide groepen. Daarnaast identificeerde de Gene Ontology-analyse meerdere verrijkte biologische processen die voornamelijk gerelateerd waren aan immuunactiviteit.
 
-De resultaten tonen aan dat reumatoïde artritis sterk wordt gekenmerkt door ontregeling van het immuunsysteem. Met name processen zoals adaptieve immuunrespons, leukocytenactivatie en antilichaamvorming spelen een belangrijke rol.  
+De analyse van de KEGG pathway *Autoimmune Thyroid Disease* (hsa05320) toonde veranderingen in genen betrokken bij antigeenpresentatie en T-celactivatie. Hierbij vertoonden MHC II, CD28 en IL-4 een verhoogde expressie, terwijl MHC I en IL-2 een verlaagde expressie lieten zien. Deze bevindingen wijzen op veranderingen in immuungerelateerde signaleringsroutes.
 
-De analyse van T-cel activatie laat zien dat signaleringsroutes betrokken bij immuunactivatie verhoogd actief zijn bij RA-patiënten. Deze inzichten dragen bij aan een beter begrip van de ziekte en kunnen helpen bij het identificeren van nieuwe therapeutische doelwitten.  
+Door de combinatie van differentiële genexpressie-, GO- en KEGG-analyses werd meer inzicht verkregen in de moleculaire processen die geassocieerd zijn met reumatoïde artritis. De resultaten benadrukken het belang van immuungerelateerde mechanismen en laten zien hoe transcriptomics kan bijdragen aan het bestuderen van complexe auto-immuunziekten.
+
+Een beperking van dit project/study is dat de sample groep te klein is met 8
+
+---
+
+##Bronnen
+De gebruikte bronnen voor deze study zijn te vinden in de map /bronnen
+
+---
+
+###AI gebruik
+Deze study heeft gebruik gemaakt van AI zoals copilot bij het formuleren van de tekst en het organiseren van bronnen. De analyses, interpretatie en vinden van bronnen zijn self door de student gedaan
