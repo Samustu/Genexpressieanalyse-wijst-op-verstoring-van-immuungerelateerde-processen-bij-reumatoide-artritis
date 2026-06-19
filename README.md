@@ -1,6 +1,16 @@
 
 #  Genexpressieanalyse wijst op verstoring van immuungerelateerde processen bij reumatoïde artritis
 
+## Inhoud/structuur
+
+- bronnen/ - gebruikte literatuur en referenties
+- data-stewardship/ - documentatie over Data Stewardship en GitHub-beheer 
+- data/ - ruwe sequencingdata en verwerkte data (count matrix)
+- script/ - R-script voor de transcriptomics analyse  
+- resultaten/figuren - resultaten van de analyses
+- script/ - R-script voor de transcriptomics analyse    
+- README.md - hoofdpagina met uitleg van het project
+
 ##  Inleiding  
 Reumatoïde artritis (RA) is een chronische auto-immuunziekte die wordt gekenmerkt door ontsteking van synoviaal weefsel en progressieve gewrichtsschade. Immuuncellen zoals T-cellen, B-cellen en macrofagen infiltreren het gewricht en veroorzaken ontstekingsprocessen en weefselafbraak (Miyabe et al., 2020). Chemokines en cytokines spelen hierbij een belangrijke rol doordat zij de activatie en migratie van immuuncellen reguleren (Miyabe et al., 2020).
 
@@ -78,9 +88,9 @@ De volcano plot laat een duidelijke scheiding zien tussen op- en neergereguleerd
   <img src="resultaten/Figuren/GO_Results_plot.png" width="600">
 </p>
 
-*Figuur 2.* Top verrijkte GO-termen van de differentieel geëxprimeerde genen.
+*Figuur 2.* Top 10 verrijkte GO-termen van de differentieel geëxprimeerde genen. Alle weergegeven termen waren significant verrijkt (over_represented_pvalue < 0,05) en betroffen voornamelijk immuungerelateerde processen.
 
-Om de biologische betekenis van deze genexpressieveranderingen verder te onderzoeken, werd een Gene Ontology (GO)-analyse uitgevoerd. Hierbij werden meerdere significant verrijkte biologische processen gevonden (over_represented_pvalue < 0,05), waaronder verschillende processen gerelateerd aan immuunactiviteit.
+Om de biologische betekenis van deze genexpressieveranderingen verder te onderzoeken, werd een Gene Ontology (GO)-analyse uitgevoerd. De GO-analyse identificeerde meerdere significant verrijkte biologische processen (over_represented_pvalue < 0,05). De sterkst verrijkte termen waren *immune response*, *adaptive immune response*, *leukocyte activation* en *immunoglobulin complex*. Deze termen hadden zeer lage p-waardes (7,35 × 10⁻²³ tot 3,99 × 10⁻¹⁸), wat wijst op een sterke verrijking van immuungerelateerde processen.
 
 Daarnaast werd een KEGG pathway-analyse uitgevoerd. Binnen de pathway *Autoimmune Thyroid Disease* (hsa05320) werden meerdere genen met veranderde expressie waargenomen.
 
